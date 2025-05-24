@@ -2,10 +2,7 @@
 
 import type { Map } from "@/types/structure";
 import { useEffect, useMemo, useRef } from "react";
-import Panzoom, {
-  type PanzoomEventDetail,
-  type PanzoomObject,
-} from "@panzoom/panzoom";
+import Panzoom, { type PanzoomObject } from "@panzoom/panzoom";
 import { LayerComponent } from "./layers/LayerComponent";
 import type { MapContext } from "@/types/rendering";
 
